@@ -11,6 +11,10 @@ import { createGlobalStyle } from "styled-components"
     html{
         scroll-behavior: smooth;
     }
+    .custom-cursor {
+    cursor: url('https://i.ibb.co/G705Gnf/cursor.png') 16 16, auto;
+    /* Replace 'path_to_your_custom_cursor_image.png' with the path to your custom cursor image */
+}
     body{
         overflow-x: hidden;
         font-family: 'Open Sans', sans-serif;
