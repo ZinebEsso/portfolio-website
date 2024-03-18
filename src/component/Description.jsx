@@ -8,6 +8,10 @@ const Line = styled.div`
   background-color: white;
   height: 1px;
   transition: width 0.3s ease;
+  @media screen and (max-width: 1035px) {
+    transition: width 0.3s ease;
+    width: 1.5em;
+  }
 `;
 
 const Description = ({ isFixed }) => {
@@ -46,7 +50,7 @@ const Description = ({ isFixed }) => {
   }, []);
 
   return (
-    <DescriptionStyle >
+    <DescriptionStyle ref={descriptionRef}>
       <div>
         <h1>Essoussi Zineb</h1>
         <h2>4th Year Software Engineering student</h2>
@@ -113,6 +117,7 @@ const DescriptionStyle = styled.div`
     position: relative;
     width: 100%;
     flex-direction: column-reverse;
+    padding: 2em;
   }
   h1 {
     font-size: 3em;
@@ -159,6 +164,9 @@ const DescriptionStyle = styled.div`
             opacity: 1;
             ${Line} {
               width: 4em;
+              @media screen and (max-width: 1035px) {
+                width: 2.4em;
+              }
             }
           }
         }
