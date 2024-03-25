@@ -12,93 +12,87 @@ const Line = styled.div`
 
 const Description = ({ isFixed }) => {
   const [active, setActive] = useState("about");
-  const descriptionRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
-      const descriptionSection = descriptionRef.current;
-      if (descriptionSection) {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const { offsetTop, offsetHeight } = descriptionSection;
+      const sections = document.querySelectorAll("section");
+      sections.forEach((section) => {
+        const top = section.offsetTop - 50; // Adjust this value if needed
+        const bottom = top + section.offsetHeight;
+        const id = section.getAttribute("id");
 
-        const aboutSection = document.getElementById("about");
-        const experienceSection = document.getElementById("experience");
-        const projectsSection = document.getElementById("projects");
-
-        const aboutOffsetTop = aboutSection.offsetTop;
-        const experienceOffsetTop = experienceSection.offsetTop;
-        const projectsOffsetTop = projectsSection.offsetTop;
-
-        if (scrollTop >= offsetTop && scrollTop < offsetTop + offsetHeight/2.5) {
-          setActive("about");
-        } else if (scrollTop >= aboutOffsetTop && scrollTop < experienceOffsetTop) {
-          setActive("experience");
-        } else if (scrollTop >= experienceOffsetTop && scrollTop < projectsOffsetTop) {
-          setActive("experience");
-        } else if (scrollTop >= projectsOffsetTop) {
-          setActive("projects");
+        if (window.scrollY >= top && window.scrollY < bottom) {
+          setActive(id);
         }
-      }
+      });
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleClick = (id) => {
+    setActive(id);
+    const element = document.getElementById(id);
+    element.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <DescriptionStyle >
+    <DescriptionStyle>
       <div>
         <h1>Essoussi Zineb</h1>
         <h2>4th Year Software Engineering student</h2>
-       
-<p>
-Passionate about full-stack web development, task automation, and end-to-end testing. 
-        </p>
+        <p>Passionate about full-stack web development, task automation, and end-to-end testing.</p>
         <div className="social-media">
-        <a target="_blank" href="https://www.linkedin.com/in/zineb-essoussi-5301581b6/"><img src={linkdlin} alt="Linkdling" /></a>
-        <a  target="_blank" href="https://github.com/DesignToWebsite"><img src={github} alt="Github" /></a>
-        <a  target="_blank" href="mailto:esso.zineb@gmail.com"><img src={email} alt="Email" /></a>
-      </div>
+          <a target="_blank" href="https://www.linkedin.com/in/zineb-essoussi-5301581b6/">
+            <img src={linkdlin} alt="Linkdling" />
+          </a>
+          <a target="_blank" href="https://github.com/DesignToWebsite">
+            <img src={github} alt="Github" />
+          </a>
+          <a target="_blank" href="mailto:esso.zineb@gmail.com">
+            <img src={email} alt="Email" />
+          </a>
+        </div>
       </div>
       <div className={`nav ${isFixed ? 'fixed' : ''}`}>
         <ul>
           <li>
             <a
-              onClick={() => setActive("about")}
               className={active === "about" ? "active" : ""}
+              onClick={() => handleClick("about")}
               href="#about"
             >
-              <Line />
+              <Line className={active === "about" ? "line active" : "line"} />
               <span>ABOUT</span>
             </a>
           </li>
           <li>
             <a
-              onClick={() => setActive("experience")}
               className={active === "experience" ? "active" : ""}
+              onClick={() => handleClick("experience")}
               href="#experience"
             >
-              <Line />
+              <Line className={active === "experience" ? "line active" : "line"} />
               <span>EXPERIENCE</span>
             </a>
           </li>
           <li>
             <a
-              onClick={() => setActive("projects")}
               className={active === "projects" ? "active" : ""}
+              onClick={() => handleClick("projects")}
               href="#projects"
             >
-              <Line />
+              <Line className={active === "projects" ? "line active" : "line"} />
               <span>PROJECTS</span>
             </a>
           </li>
         </ul>
       </div>
-
-      
     </DescriptionStyle>
   );
 };
+
 
 const DescriptionStyle = styled.div`
   position: fixed;
@@ -113,6 +107,7 @@ const DescriptionStyle = styled.div`
     position: relative;
     width: 100%;
     flex-direction: column-reverse;
+    padding: 2em;
   }
   h1 {
     font-size: 3em;
