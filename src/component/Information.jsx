@@ -2,6 +2,7 @@ import styled from "styled-components";
 import rightTopArrow from "../images/up-right-arrow.png";
 import { data } from "../data/data";
 import { useEffect, useState } from "react";
+import pdfCV from "../data/Automation_cv.pdf"
 const Information = () => {
   
   const [category, setCategory] = useState("all");
@@ -17,7 +18,7 @@ const Information = () => {
   },[category])
   return (
     <Informations>
-      <div id="about">
+      <section id="about">
         <p>
           I’m a software engineering student, I am passionate about{" "}
           <span className="bold"> full-stack web development, task
@@ -28,8 +29,8 @@ const Information = () => {
           solutions illustrate my commitment to innovation in the field of
           computer science.
         </p>
-      </div>
-      <div id="experience">
+      </section>
+      <section id="experience">
         <a href="#" className="item">
           <div className="year">
             <p>7</p>
@@ -51,19 +52,20 @@ const Information = () => {
             <div className="languages">
               <ul>
                 <li>Javascript</li>
-                <li>Reach</li>
+                <li>Cypress</li>
+                <li>Java</li>
               </ul>
             </div>
           </div>
         </a>
-        <a target="_black" href="https://drive.google.com/file/d/12cyXzDYtGqS2P1mY67QoSuMorHdox0aC/view" className="resume link">
+        <a target="_black" href={pdfCV} className="resume link">
           View Full Résumé
           <span className="arrow">
             <img src={rightTopArrow} alt="" />
           </span>
         </a>
-      </div>
-      <div id="projects">
+      </section>
+      <section id="projects">
         <div className="filter">
           <ul>
             <li onClick={()=>{setCategory("all")}} className={category=="all"? "selected" : ""}>All</li>
@@ -103,13 +105,8 @@ const Information = () => {
             </a>
           );
         })}
-        {/* <a href="#" className="resume link">
-          View Full Project Archive
-          <span className="arrow">
-            <img src={rightTopArrow} alt="" />
-          </span>
-        </a> */}
-      </div>
+        
+      </section>
     </Informations>
   );
 };
