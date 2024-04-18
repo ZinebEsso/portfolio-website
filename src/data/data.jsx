@@ -76,6 +76,15 @@ export const data = {
         "image" : "https://i.ibb.co/k9tZ30n/Capture-d-cran-2024-03-18-213017.png",
         "github":"https://github.com/DesignToWebsite/Web-Data-Extraction-to-Excel"
       },
+      {
+        "status" : "completed",
+        "category" : "rpa",
+        "name" : "Email automation",
+        "description" : "Simplify internship applications with my email automation tool. Using RPA, it generates personalized emails and motivation letters. Save time and impress recruiters with customized messages. Showcase your efficiency and innovation in internship hunting.",
+        "languages":"UIPATH",
+        "image" : "https://i.ibb.co/C2Pd3xS/Capture-d-cran-2024-04-18-125757.png",
+        "github":"https://github.com/DesignToWebsite/Email-automatisation/blob/main/README.md"
+      },
       
       
   ]
