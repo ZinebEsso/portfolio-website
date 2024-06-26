@@ -2,22 +2,22 @@ export const data = {
   "project": [
     
     {
-      "status" : "In progress...",
+      "status" : "Completed",
       "category" : "full-stack , testing",
       "name": "CineBooking Project",
       "description":"This project is a web application for cinema reservations.It consists of a Laravel API backend and a React frontend alse we used the Youtube API to show the video trailer.",
       "languages": "React,Laravel API, Cypress, Youtube API, MySQL,Bootstrap",
-      "link" : "https://github.com/DesignToWebsite/cinemaWebsiteFullStack",
+      "github" : "https://github.com/DesignToWebsite/cinema-website/blob/main/README.md",
       "image" : "https://i.ibb.co/Ht0dtXy/Capture-d-cran-2024-03-18-005352.png"
     },
     {
-      "status" : "In progress...",
+      "status" : "Completed.",
       "category" : "full-stack",
-      "name" : "Competition Management Platform (PFA)",
+      "name" : "Competition Management Platform (PFA) - innoMIAte",
       "description" : "This project aims to develop a web application for managing competitions where users can participate in competitions and organizers can create and manage competitions. The platform will provide a centralized system for handling all aspects of competitions, including registration, submission of entries, judging, and result announcements.",
       "languages":"React, asp.net",
       "image" : "https://i.ibb.co/m9ZMDsv/Home-page.png",
-      "link":"https://github.com/DesignToWebsite/Competition-website"
+      "github":"https://github.com/DesignToWebsite/Competition-website"
     },
     {
       "status" : "completed",
