@@ -58,6 +58,32 @@ const Information = () => {
             </div>
           </div>
         </a>
+        <a href="#" className="item">
+          <div className="year">
+            <p>7</p>
+            <span className="line"></span>
+            <p>10/2024</p>
+          </div>
+          <div className="description">
+            <h3 className="jobName">
+              Development of a vehicle fleet management application
+              <span className="company">AnotherBot, Casablanca</span>
+            </h3>
+            <p className="jobDescription">
+              Automation of vehicle management within companies, facilitating the tracking of assignments, maintenance, and location. The application also optimizes the management of drivers, fines, and associated services.
+            </p>
+            <div className="languages">
+              <ul>
+                <li>React</li>
+                <li>Refine</li>
+                <li>ant design</li>
+                <li>Spring Boot</li>
+                <li>Cypress</li>
+                <li>Postman</li>
+              </ul>
+            </div>
+          </div>
+        </a>
         <a target="_black" href={pdfCV} className="resume link">
           View Full Résumé
           <span className="arrow">
