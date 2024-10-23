@@ -13,23 +13,6 @@ const Line = styled.div`
 const Description = ({ isFixed }) => {
   const [active, setActive] = useState("about");
   
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const sections = document.querySelectorAll("section");
-  //     sections.forEach((section) => {
-  //       const top = section.offsetTop;
-  //       const bottom = top + section.offsetHeight;
-  //       const id = section.getAttribute("id");
-
-  //       if (window.scrollY > top && window.scrollY < bottom) {
-  //         setActive(id);
-  //       }
-  //     });
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll("section");
@@ -63,7 +46,7 @@ const Description = ({ isFixed }) => {
     <DescriptionStyle>
       <div>
         <h1>Essoussi Zineb</h1>
-        <h2>4th Year Software Engineering student</h2>
+        <h2>Software Engineering | Passionate about Testing and Task Automation</h2>
         <p>
           Passionate about full-stack web development, task automation, and
           end-to-end testing.
