@@ -54,11 +54,11 @@ const Description = ({ isFixed }) => {
         <div className="social-media">
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/zineb-essoussi-5301581b6/"
+            href="https://www.linkedin.com/in/zineb-essoussi/"
           >
             <img src={linkdlin} alt="Linkdling" />
           </a>
-          <a target="_blank" href="https://github.com/DesignToWebsite">
+          <a target="_blank" href="https://github.com/ZinebEsso">
             <img src={github} alt="Github" />
           </a>
           <a target="_blank" href="mailto:esso.zineb@gmail.com">
