@@ -7,7 +7,7 @@ export const data = {
       "name": "CineBooking Project",
       "description":"This project is a web application for cinema reservations.It consists of a Laravel API backend and a React frontend alse we used the Youtube API to show the video trailer.",
       "languages": "React,Laravel API, Cypress, Youtube API, MySQL,Bootstrap",
-      "github" : "https://github.com/DesignToWebsite/cinema-website/blob/main/README.md",
+      "github" : "https://github.com/ZinebEsso/cinema-website/blob/main/README.md",
       "image" : "https://i.ibb.co/Ht0dtXy/Capture-d-cran-2024-03-18-005352.png"
     },
     {
@@ -17,7 +17,7 @@ export const data = {
       "description" : "This project aims to develop a web application for managing competitions where users can participate in competitions and organizers can create and manage competitions. The platform will provide a centralized system for handling all aspects of competitions, including registration, submission of entries, judging, and result announcements.",
       "languages":"React, asp.net",
       "image" : "https://i.ibb.co/m9ZMDsv/Home-page.png",
-      "github":"https://github.com/DesignToWebsite/Competition-website"
+      "github":"https://github.com/ZinebEsso/Competition-website"
     },
     {
       "status" : "completed",
@@ -25,7 +25,7 @@ export const data = {
       "name": "Buysellify E-Commerce Website",
       "description": "This is an e-commerce website where users can sell products, add comments and ratings, and manage their orders. The website is built using HTML, CSS, JavaScript, PHP, and MySQL.",
       "languages": "HTML,CSS,Sass,JavaScript,PHP,MySQL,Owl Carousel,Bootstrap",
-      "github" : "https://github.com/DesignToWebsite/e-commerce-website",
+      "github" : "https://github.com/ZinebEsso/e-commerce-website",
       "image" : "https://i.ibb.co/XpYf2QT/Capture-d-cran-2024-03-18-004323.png"
     },
     {
@@ -36,7 +36,7 @@ export const data = {
       "languages": "Html,CSS,javascript,Bootstrap",
       "link" : "https://designtowebsite.github.io/instagram_clone/login",
       "image" : "https://i.ibb.co/KxFV6hq/Capture-d-cran-2024-03-18-004004.png",
-      "github" : "https://github.com/DesignToWebsite/instagram_clone"
+      "github" : "https://github.com/ZinebEsso/instagram_clone"
     },
     {
         "status" : "completed",
@@ -45,7 +45,7 @@ export const data = {
         "description": "I converted a meticulously crafted Adobe XD design into a dynamic, responsive website using HTML, CSS, and JavaScript. Implementing interactive elements and ensuring cross-browser compatibility, I delivered a visually striking online presence that captivated users across devices.",
         "languages": "HTML,CSS,Sass,JavaScript,Bootstrap",
         "link" : "https://designtowebsite.github.io/GPT-3/",
-        "github": "https://github.com/DesignToWebsite/GPT-3/tree/main",
+        "github": "https://github.com/ZinebEsso/GPT-3/tree/main",
         "image": "https://i.ibb.co/DR7c02W/project1.png"
       },
       {
@@ -55,7 +55,7 @@ export const data = {
         "description": "I developed an educational landing website with HTML, CSS, and JavaScript, integrating interactive elements for engagement and ensuring seamless cross-browser compatibility. The result is a visually captivating online platform accessible across various devices.",
         "languages": "HTML,CSS,Sass,JavaScript,Bootstrap,Owlcarousel",
         "link" : "https://designtowebsite.github.io/Grad-School/site/",
-        "github": "https://github.com/DesignToWebsite/Grad-School",
+        "github": "https://github.com/ZinebEsso/Grad-School",
         "image":"https://i.ibb.co/hD47rMg/Capture-d-cran-2024-03-18-004932.png"
       },
       {
@@ -65,7 +65,7 @@ export const data = {
         "description" : "Inspired by Abhiraj's Instagram design, I'm turning it into reality. Create an animation website",
         "languages":"React, Styled-components, Framer motion",
         "image" : "https://i.ibb.co/pwGHV91/Capture-d-cran-2024-03-18-010318.png",
-        "github":"https://github.com/DesignToWebsite/animation-insta-design"
+        "github":"https://github.com/ZinebEsso/animation-insta-design"
       },
       {
         "status" : "completed",
@@ -74,7 +74,7 @@ export const data = {
         "description" : "This project aims to automate the process of extracting product data from a website using UiPath. The extracted data includes the title, price, and URL of each product, which is then stored in separate Excel files, one for each product.",
         "languages":"UIPATH",
         "image" : "https://i.ibb.co/k9tZ30n/Capture-d-cran-2024-03-18-213017.png",
-        "github":"https://github.com/DesignToWebsite/Web-Data-Extraction-to-Excel"
+        "github":"https://github.com/ZinebEsso/Web-Data-Extraction-to-Excel"
       },
       {
         "status" : "completed",
@@ -83,7 +83,7 @@ export const data = {
         "description" : "Simplify internship applications with my email automation tool. Using RPA, it generates personalized emails and motivation letters. Save time and impress recruiters with customized messages. Showcase your efficiency and innovation in internship hunting.",
         "languages":"UIPATH",
         "image" : "https://i.ibb.co/C2Pd3xS/Capture-d-cran-2024-04-18-125757.png",
-        "github":"https://github.com/DesignToWebsite/Email-automatisation/blob/main/README.md"
+        "github":"https://github.com/ZinebEsso/Email-automatisation/blob/main/README.md"
       },
       
       
