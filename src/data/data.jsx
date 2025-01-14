@@ -17,7 +17,7 @@ export const data = {
       "description" : "This project aims to develop a web application for managing competitions where users can participate in competitions and organizers can create and manage competitions. The platform will provide a centralized system for handling all aspects of competitions, including registration, submission of entries, judging, and result announcements.",
       "languages":"React, asp.net",
       "image" : "https://i.ibb.co/m9ZMDsv/Home-page.png",
-      "github":"https://github.com/ZinebEsso/Competition-website"
+      "github":"https://github.com/ZinebEsso/PFE-InnoMIAte"
     },
     {
       "status" : "completed",
