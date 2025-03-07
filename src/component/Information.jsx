@@ -84,12 +84,13 @@ const Information = () => {
             </div>
           </div>
         </a>
-        <a target="_black" href={pdfCV} className="resume link">
+        
+{/*         <a target="_black" href={pdfCV} className="resume link">
           View Full Résumé
           <span className="arrow">
             <img src={rightTopArrow} alt="" />
           </span>
-        </a>
+        </a> */}
       </section>
       <section id="projects">
         <div className="filter">
