@@ -20,71 +20,136 @@ const Information = () => {
     <Informations>
       <section id="about">
         <p>
-          I’m a software engineering student, I am passionate about{" "}
-          <span className="bold"> full-stack web development, task
-          automation, and end-to-end testing.</span>
-        </p>
-        <p>
-          Currently learning RPA, my enthusiasm and willingness to explore new
-          solutions illustrate my commitment to innovation in the field of
-          computer science.
-        </p>
+  I am a software engineering graduate specializing in software quality assurance, test automation, robotic process automation (RPA), and full-stack development. I have hands-on experience in designing and implementing automated tests for both UI and API layers.
+</p>
+
+<p>
+  I work with technologies such as Cypress and Mocha to ensure application reliability, and I actively contribute to validating complex systems in the banking and payment domain, including tokenization and card processing flows.
+</p>
+
+<p>
+  Passionate about development, automation, and quality engineering, I am continuously improving my skills in building scalable applications, RPA workflows, and robust automated testing solutions within Agile environments.
+</p>
       </section>
       <section id="experience">
         <a href="#" className="item">
-          <div className="year">
-            <p>7</p>
-            <span className="line"></span>
-            <p>9/2023</p>
-          </div>
-          <div className="description">
-            <h3 className="jobName">
-              Automation of the migration process for Protractor tests to
-              Cypress.
-              <span className="company">HPS, Casablanca</span>
-            </h3>
-            <p className="jobDescription">
-              Developed a program automating the seamless migration of
-              Protractor tests to Cypress, significantly streamlining the
-              process, enhancing test quality, and facilitating a smooth
-              transition to Cypress.
-            </p>
-            <div className="languages">
-              <ul>
-                <li>Javascript</li>
-                <li>Cypress</li>
-                <li>Java</li>
-              </ul>
-            </div>
-          </div>
-        </a>
+    <div className="year">
+      <p>2025</p>
+      <span className="line"></span>
+      <p>Now</p>
+    </div>
+
+    <div className="description">
+      <h3 className="jobName">
+        QA Automation Engineer
+        <span className="company">HPS, Casablanca</span>
+      </h3>
+
+      <p className="jobDescription">
+        Designed, executed, and maintained manual and automated functional tests to ensure application quality.
+        Developed UI and API automated tests with validation of responses, events, and database data.
+        Analyzed nightly test executions to detect regressions and investigate failures.
+        Participated in regression testing campaigns and contributed to feature validation in the payment and banking domain.
+      </p>
+
+      <div className="languages">
+        <ul>
+          <li>Cypress</li>
+          <li>Mocha</li>
+          <li>JavaScript</li>
+          <li>Postman</li>
+          <li>Kafka</li>
+        </ul>
+      </div>
+    </div>
+  </a>
+  <a href="#" className="item">
+    <div className="year">
+      <p>2025</p>
+      <span className="line"></span>
+      <p>Feb - Aug</p>
+    </div>
+
+    <div className="description">
+      <h3 className="jobName">
+        Test Automation Intern – POWERCARD V4
+        <span className="company">HPS, Casablanca</span>
+      </h3>
+
+      <p className="jobDescription">
+        Designed and executed automated tests for the POWERCARD V4 project.
+        Validated APIs, business flows, and application events.
+        Participated in regression testing and analyzed results to ensure system stability and reliability.
+      </p>
+
+      <div className="languages">
+        <ul>
+          <li>Cypress</li>
+          <li>Mocha</li>
+          <li>Kafka</li>
+          <li>Postman</li>
+        </ul>
+      </div>
+    </div>
+  </a>
+
+  <a href="#" className="item">
+    <div className="year">
+      <p>2024</p>
+      <span className="line"></span>
+      <p>Jul - Oct</p>
+    </div>
+
+    <div className="description">
+      <h3 className="jobName">
+        Full Stack Developer Intern
+        <span className="company">AnotherBot, Casablanca</span>
+      </h3>
+
+      <p className="jobDescription">
+        Developed a vehicle fleet management application.
+        Implemented both frontend and backend functionalities to manage vehicles, drivers, maintenance, and related services.
+        Implemented automated tests to ensure application quality and reliability.
+      </p>
+
+      <div className="languages">
+        <ul>
+          <li>React</li>
+          <li>Refine</li>
+          <li>Spring Boot</li>
+          <li>Ant Design</li>
+          <li>Cypress</li>
+          <li>Postman</li>
+        </ul>
+      </div>
+    </div>
+  </a>
         <a href="#" className="item">
-          <div className="year">
-            <p>7</p>
-            <span className="line"></span>
-            <p>10/2024</p>
-          </div>
-          <div className="description">
-            <h3 className="jobName">
-              Development of a vehicle fleet management application
-              <span className="company">AnotherBot, Casablanca</span>
-            </h3>
-            <p className="jobDescription">
-              Automation of vehicle management within companies, facilitating the tracking of assignments, maintenance, and location. The application also optimizes the management of drivers, fines, and associated services.
-            </p>
-            <div className="languages">
-              <ul>
-                <li>React</li>
-                <li>Refine</li>
-                <li>ant design</li>
-                <li>Spring Boot</li>
-                <li>Cypress</li>
-                <li>Postman</li>
-              </ul>
-            </div>
-          </div>
-        </a>
-        
+  <div className="year">
+    <p>2023</p>
+    <span className="line"></span>
+    <p>Sep</p>
+  </div>
+
+  <div className="description">
+    <h3 className="jobName">
+      Automation of Protractor to Cypress Test Migration
+      <span className="company">HPS, Casablanca</span>
+    </h3>
+
+    <p className="jobDescription">
+      Developed an automation solution to migrate existing Protractor test suites to Cypress, streamlining the migration process, improving test reliability, and ensuring a smooth transition between testing frameworks.
+    </p>
+
+    <div className="languages">
+      <ul>
+        <li>JavaScript</li>
+        <li>Cypress</li>
+        <li>Java</li>
+      </ul>
+    </div>
+  </div>
+</a>
 {/*         <a target="_black" href={pdfCV} className="resume link">
           View Full Résumé
           <span className="arrow">
